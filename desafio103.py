@@ -1,5 +1,5 @@
 def ficha(nome='desconhecido', gols=0):
-    print(f'O jogador {nome} fez {gols} gols no campeonato')
+    print(f'O jogador {nome} fez {gols} gol(s) no campeonato')
 
 # Programa Principal
 

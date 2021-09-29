@@ -3,11 +3,11 @@ def voto(ano):
     data_atual = date.today().year
     idade = data_atual - ano
     if 18 <= idade <= 65:
-        return 'Voto: Obrigatório'
+        return f'Com {idade} anos: Voto Obrigatório'
     elif idade < 16:
-        return 'Voto: Negado'
+        return f'Com {idade} anos: Voto Negado'
     else:
-        return 'Voto: Opcional'
+        return f'Com {idade} anos: Voto Opcional'
 
 
 #  Programa Principal

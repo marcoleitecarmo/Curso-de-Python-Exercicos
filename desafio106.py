@@ -3,6 +3,8 @@ def func(ajuda):
     help(ajuda)
     print('\033[m-' * 30)
 
+#  Programa Principal
+
 
 while True:
     print('\033[41m-' * 30)

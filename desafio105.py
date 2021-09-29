@@ -29,4 +29,6 @@ def notas(*n, s=False):
 
 # Programa Principal
 
-print(notas(5.5, 5.5, 0, 0, s=True))
+print(notas(5.5, 9.5, 7, 5, 10, s=True))
+
+help(notas)
