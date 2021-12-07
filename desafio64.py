@@ -7,4 +7,4 @@ while True:
     else:
         break
 print('\033[1;31mSaiu do loop\033[m', '\n')
-print('\033[1;32mForam digitados ao todo {} numeros e a soma dos valoes é {}\033[m'.format(cont, soma))
+print('\033[1;32mForam digitados ao todo {} numeros e a soma dos valores é {}\033[m'.format(cont, soma))

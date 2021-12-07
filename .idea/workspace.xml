@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d784636-95f4-4bf5-aea8-3acae45146f7" name="Changes" comment="Desafios com modulos">
-      <change afterPath="$PROJECT_DIR$/desafio113.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio114.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio115/desafio115sistema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio115/lib/arquivo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio115/lib/interface/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio115a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio115b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/desafio115c.py" afterDir="false" />
+    <list default="true" id="4d784636-95f4-4bf5-aea8-3acae45146f7" name="Changes" comment="DEsafios">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Curso de Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Curso de Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio64.py" beforeDir="false" afterPath="$PROJECT_DIR$/desafio64.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +35,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Curso Python Coursera" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.desafio115sistema (1)">
+  <component name="RunManager" selected="Python.desafio65">
     <configuration name="desafio113" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Curso de Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,27 +73,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafio114.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="desafio115a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Curso de Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafio115a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,13 +123,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="desafio65" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Curso de Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafio65.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.desafio65" />
         <item itemvalue="Python.desafio115sistema (1)" />
         <item itemvalue="Python.desafio115sistema" />
         <item itemvalue="Python.desafio113" />
         <item itemvalue="Python.desafio114" />
-        <item itemvalue="Python.desafio115a" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633050967881</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Desafios com modulos">
+      <created>1633302215386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633302215386</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DEsafios">
+      <created>1633302408305</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633302408306</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +239,8 @@
     <MESSAGE value="Novos desafios" />
     <MESSAGE value="Correção dos desafios" />
     <MESSAGE value="Desafios com modulos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafios com modulos" />
+    <MESSAGE value="Desafio 115 em 3 partes" />
+    <MESSAGE value="DEsafios" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEsafios" />
   </component>
 </project>
