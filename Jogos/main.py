@@ -14,11 +14,13 @@ player1_moveup = False
 player1_movedown = False
 
 player2 = pygame.image.load('assentz/player2.png')
+player2_y = 310
 
 ball = pygame.image.load('assentz/ball.png')
 ball_x = 617
 ball_y = 337
 ball_dir = -3
+ball_dir_y = 1
 
 
 def move_player():
@@ -44,19 +46,32 @@ def move_ball():
     global ball_x
     global ball_y
     global ball_dir
+    global ball_dir_y
 
     ball_x += ball_dir
+    ball_y += ball_dir_y
+
 
     if ball_x < 120:
-        if player1_y < ball_y + 23:
-            if player1_y + 146> ball_y:
+        if player2_y < ball_y + 23:
+            if player2_y + 146> ball_y:
                 ball_dir *= - 1
+
+    if ball_x > 1100:
+        if player1_y < ball_y + 23:
+            if player1_y + 146 > ball_y:
+                ball_dir *= - 1
+
+    if ball_y > 685:
+        ball_dir_y *= -1
+    elif ball_y <= 0:
+        ball_dir_y *= -1
 
 
 def draw():
     window.blit(field, (0, 0))
     window.blit(player1, (50, player1_y))
-    window.blit(player2, (1150, 310))
+    window.blit(player2, (1150, player2_y))
     window.blit(ball, (ball_x, ball_y))
 
 
